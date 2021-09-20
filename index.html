@@ -1,470 +1,331 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139394467-1"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139394467-2"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() { dataLayer.push(arguments); }
-gtag('js', new Date());
-
-gtag('config', 'UA-139394467-2');
-</script>
-
-<title>
-Chekir Walid - Développeur Web et mobile
-</title>
-
-<meta name="description" content="Chekir Walid Ingénieur et développeur web et mobile .
-J'utilise les framework web (Laravel, Symfony, Vue.js, Nuxt.js) et mobile ( CodeNameOne, Flutter ) , 
-Étudiant à ESPRIT." />
-<link rel="icon" href="images/w.png">
-
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-<link rel="stylesheet" href="css/animate.css" />
-<link rel="stylesheet" href="css/flexslider.css" />
-<link rel="stylesheet" href="fonts/icomoon/style.css" />
-
-<link rel="stylesheet" href="css/bootstrap.css" />
-<link rel="stylesheet" href="css/style.css" />
-
-<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet" />
-</head>
-
-<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
-    <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light scrolled sleep" id="pb-navbar">
-    <div class="container">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <a class="navbar-brand" href="index.html">Chekir Walid</a>
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-    <ul class="navbar-nav">
-    <li class="nav-item">
-    <a class="nav-link" href="#section-home">Home</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#section-about">About </a>
-    </li>
-    
-    <li class="nav-item">
-    <a class="nav-link active" href="#section-resume">Educational Journey</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#section-projects">Projects</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#section-contact">Contact</a>
-    </li>
-    <!--
-    <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    langue
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-    <a class="dropdown-item" href="#">English</a>
-    <a class="dropdown-item" href="#">Francais</a>
-    </div>
-    </li>
-    -->
-    </ul>
-    </div>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="portfolio/static/css/style.css">
+    <title>Chekir Walid Software Engineer</title>
+    <!-- Open Graph-->
+    <link rel="icon" href="images/w.png">
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav ng-class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
+            <h1>Chekir Walid<span class="brown-text light">Software Engineer</span></h1></a></li>
+	     <li> <img src="images/walid.jpg" style="border-radius: 50%; width: 160px; height: 160px;" alt="Avatar"> </li>
+	            
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About me</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <!--<li class="bold"><a aria-label="Navigate to the Awards section" href="portfolio.html#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Prix</span></a></li>-->
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+      </ul>
     </nav>
-    
-    <section class="site-hero" style="background-image: url(images/bg.jpg);" id="section-home" data-stellar-background-ratio="0.5">
-    <div class="container">
-    <div class="row intro-text align-items-center justify-content-center">
-    <div class="col-md-10 text-center">
-    <h1 class="site-heading site-animate fadeInUp site-animated">
-        Hello, I am <strong>Chekir Walid</strong>
-    </h1>
-    <h2 class="site-heading site-animate text-white fadeInUp site-animated">
-    <strong> software developer &amp; Engineer student at ESPRIT</strong>
-    </h2>
-    <p>
-    <a href="#section-about" class="smoothscroll btn btn-primary px-4 py-3">more about me</a>
-    </p>
-    </div>
-    </div>
-    </div>
-    </section>
-    <!-- section -->
-    
-    <section class="site-section" id="section-about">
-    <div class="container">
-    <div class="row mb-5 align-items-center">
-    <div class="col-lg-4 pr-lg-2 mb-2 mb-lg-0">
-    <img src="images/walid.jpg" alt="Chekir Walid - Développeur web Full Stack" class="img-fluid">
-    </div>
-    <div class="col-lg-5 pl-lg-5">
-    <div class="section-heading">
-    <h2>About <strong>me</strong></h2>
-    </div>
-    <p class="lead">
-        I am a <strong>Software Developer </strong>
-        and
-    <strong>Engineering Student</strong> at
-    <a href="http://esprit.tn/" target="_blank">ESPRIT</a>
-    </p>
-    <p class="mb-5 ">
-        Passionate about new technologies.
-    </p>
-    
-    <p>
-    <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Contact-me</a>
-    <!-- <a href="path_to_file" download="proposed_file_name">Download</a> -->
-    
-    <a href="files/Chekir Walid.pdf" download="Cv Chekir Walid" class="btn btn-secondary px-4 py-2 btn-sm" target="_blank">Download my CV</a>
-    </p>
-    </div>
-    </div>
-    
-    <div class="row pt-5">
-    <div class="col-md-3 mb-3">
-    <div class="section-heading">
-    <h2>My <strong>skills</strong></h2>
-    </div>
-    </div>
-    <br>
-    <div class="col-md-9">
-    <div class="skill">
-    <h2>Front End</h2>
-    
-    <p class="lead ">
-    <strong>Vue.js, Nuxt.js</strong> , HTML5, CSS3, bootstrap
-    </p>
-    
-    <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-    <span>60%</span>
-    </div>
-    </div>
-    </div>
-    
-    <div class="skill">
-    <h2>Back-end Framework</h2>
-    <p class="lead">
-        Laravel,<strong>Symfony, Spring, .Net</strong>
-    </p>
-    <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-    <span>70%</span>
-    </div>
-    </div>
-    </div>
-    
-    <div class="skill">
-    <h2>Programming languages</h2>
-    <p class="lead">
-    Javascript, typescript ,python
-    ,<strong>Php, Swift, Java 7, Java 8, Dart, C#</strong>
-    </p>
-    <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-    <span>70%</span>
-    </div>
-    </div>
-    </div>
-    
-    <div class="skill">
-    <h2>Mobile UI Framework</h2>
-    <p class="lead"><strong>Flutter, Native iOS, Native Android</strong> , Codenameone</p>
-    <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-    <span>70%</span>
-    </div>
-    </div>
-    </div>
-    
-    <div class="skill">
-    <h2>Intégration continue</h2>
-    <p class="lead">Git</p>
-    <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-    <span>80%</span>
-    </div>
-    </div>
-    </div>
-    
-    <div class="skill">
-    <h2>Cross-platform game engine</h2>
-    <p class="lead">Unity</p>
-    <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-    <span>40%</span>
-    </div>
-    </div>
-    </div>
-    <div class="skill">
-    <h2>Soft skills</h2>
-    <p class="lead">Communication, teamwork</p>
-    <div class="progress">
-    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-    <span>80%</span>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-    
-    <section class="site-section bg-light " id="section-resume">
-    <div class="container">
-    <div class="row">
-    <div class="col-md-12 mb-5">
-    <div class="section-heading text-center">
-    <h2>Educational <strong> Journey</strong></h2>
-    </div>
-    </div>
-    <div class="col-md-6">
-    <h2 class="mb-5">Education</h2>
-    <div class="resume-item mb-4">
-    <span class="date"><span class="icon-calendar"></span> 2020 - 2023</span>
-    <h3>Engineering degree in computer science</h3>
-    <p>SIM Specialty (Computer and Mobile Systems)</p>
-    <span class="school">Private Higher School of Engineering and Technology (ESPRIT)</span>
-    </div>
-    
-    <div class="resume-item mb-4">
-    <span class="date"><span class="icon-calendar"></span> 2017 - 2020.</span>
-    <h3>Applied License Diploma</h3>
-    <p>Business Informatics Specialty</p>
-    <span class="school">Graduate School of Economics and Business
-        Tunis (ESSECT)</span>
-    </div>
-    
-    <div class="resume-item mb-4">
-    <span class="date"><span class="icon-calendar"></span> 2016 - 2017.</span>
-    <h3>Baccalaureat diploma</h3>
-    <p>Science specialty</p>
-    <span class="school">Taha Hussein High School</span>
-    </div>
-    </div>
-    <div class="col-md-6">
-    <h2 class="mb-5">Experience</h2>
-    
-    
-    <div class="resume-item mb-4">
-        <span class="date"><span class="icon-calendar"></span> Juillet 2021</span>
-        <h3>Summer internship</h3>
-        <p>
-            Development of a Chat application for SONEDE (duration 1 month).
-        </p>
-        </div>
-    
-    <div class="resume-item mb-4">
-    <span class="date"><span class="icon-calendar"></span> February - May 2020</span>
-    <h3>final internship.</h3>
-    <p>
-        Development of a web application for the Office of
-        civil aviation and airports for carrying out
-        online reservations for parking spaces and
-        flight consultation
-    </p>
-    </div>
-    
-    
-    
-    </div>
-    
-    <div class="col-md-12" id="section-projects">
-    <div class="col-md-12 mb-5">
-    <div class="section-heading text-center">
-    <h2>My<strong> projects</strong></h2>
-    </div>
-    </div>
-    
-    <div class="resume-item mb-4">
-    <span class="date"><span class="icon-calendar"></span> February - May 2020</span>
-    <h3>Online reservation application for parking spaces and flight consultation</h3><br>
-    
-    <a href="https://www.youtube.com/watch?v=e3zgU1jKkDY" target="_blank">
-        <img src="images/oaca.png" class="img-thumbnail" alt="...">
-    </a>
-    <br>
-    
-    <p>
-    This web application which allows you to:<br>
-    -Create a modern interface, adapted to any type of screen (Responsive Design) and easy to use for consulting flights.<br>
-    -Realize the new online parking reservation service. The customer can book and choose his seat online. This facilitates the task of accessing the car park and saves time.
-    </p><h4> Technologies used :</h4> <strong>Larvel</strong> for the backend and <strong>Nuxt.Js</strong> for
-    the frontend.
-    <p></p>
-    </div>
-    <!--
-    <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="video/p1.mp4" allowfullscreen></iframe>
-    </div>
-    -->
-    <br><br>
-    
-    <div class="resume-item mb-4">
-    <span class="date"><span class="icon-calendar"></span> Février - Mai 2021</span>
-    <h3>Wellness and meditation application</h3>
-    <p>
-        This app is cross-platform<br>
-    </p><h4> Technologies used :</h4> <strong>JAVAFX</strong> for the desktop part, <strong>Symfony</strong> for
-    the web part and <strong>Codenameone</strong> for the mobile part.
-    <p></p>
-    </div>
-    
-    <div class="resume-item mb-4">
-    <span class="date"><span class="icon-calendar"></span> Février - JUIN 2021</span>
-    <h3>Space Shooter game</h3>
-    <a href="https://walid009.github.io/" target="_blank">
-        <img src="images/spaceshotter.png" class="img-thumbnail" alt="...">
-    </a>
-    <p>
-        Description of this 2D game: <br>
-        Galaxy space shooter! start shooting the enemies. Each enemy killed increases your score by 10 points.
-        You can collect 1. Speed, 2. TripleShoot, 3. Shield boosters, each booster lasts 5 seconds except the shield.
-    </p><h4>Develop with the cross-platform game engine:</h4> <strong>Unity</strong>(Programming languages: C #).
-    <p></p>
-    </div>
-    
-    
-    <div class="resume-item mb-4">
-        <span class="date"><span class="icon-calendar"></span> JUILLET 2021</span>
-        <h3>Chat application</h3>
+    <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="portfolio.html#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="portfolio.html#main" class="teal-text">Chekir Walid</a><span class="brown-text light">Software Engineer</span></div>
+      
+    </nav>
+	
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About me</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <!--<li class="bold"><a aria-label="Navigate to the Awards section" href="portfolio.html#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>-->
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height-intro">
+        <div class="overlay"></div>
         <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <img src="images/1.png" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-sm">
-                <img src="images/2.png" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-sm">
-                <img src="images/3.png" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-sm">
-                <img src="images/4.png" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-sm">
-                <img src="images/5.png" class="img-thumbnail" alt="...">
-              </div>
-            </div>
-          </div>
-    
-          <div class="container">
-            <div class="row">
-    
-                <div class="col-sm">
-                    <img src="images/10.png" class="img-thumbnail" alt="...">
-                  </div>
-              <div class="col-sm">
-                <img src="images/9.png" class="img-thumbnail" alt="...">
-              </div>
-              <div class="col-sm">
-                <img src="images/8.png" class="img-thumbnail" alt="...">
-            </div>
-            <div class="col-sm">
-                <img src="images/6.png" class="img-thumbnail" alt="...">
-              </div>        
-              <div class="col-sm">
-                <img src="images/7.png" class="img-thumbnail" alt="...">
-            </div>
-            </div>
-          </div>
-        <p>
-            <br>
-            </p><h4> Technologies used :</h4> <strong>Flutter</strong> and <strong>Firebase.</strong>
-        <p></p>
+          <h2>I want to do <span class="teal">things </span><br>that <span class="underline">make a difference</span>.</h2>
         </div>
+      </section>
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About me</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>I’m a Software engineer driven by the mission with a passion to think, collaborate and cooperate.</h2>
+          </blockquote>
+        </div>
+	      
+	 <div class="container">
+	  <p><a aria-label="Email Chekir Walid" href="mailto:walidchekir98@gmail.com" data-position="top" data-tooltip="Email Chekir Walid" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-envelope"></i><a alt="" href="mailto:walidchekir98@gmail.com" class="hoverline">walidchekir98@gmail.com</a></a></p>
+	  <p><a aria-label="View Chekir Walid on GitHub"  target="_blank" data-position="top" data-tooltip="View Chekir Walid on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i><a alt="" target="_blank" href="https://github.com/walid0010" class="hoverline">https://github.com/walid0010</a></a> (Professional account)</p>
+    <p><a aria-label="View Chekir Walid on GitHub"  target="_blank" data-position="top" data-tooltip="View Chekir Walid on GitHub" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i><a alt="" target="_blank" href="https://github.com/walid009" class="hoverline">https://github.com/walid009</a></a> (Study account)</p>
+	  <p><a aria-label="View Chekir Walid on LinkedIn" href="https://www.linkedin.com/in/walid-chekir-3b947a177/" target="_blank" data-position="top" data-tooltip="View Chekir Walid on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i><a alt="" target="_blank" href="https://www.linkedin.com/in/walid-chekir-3b947a177/" class="hoverline">https://www.linkedin.com/in/walid-chekir-3b947a177/</a></a></p>
+	
+		 
+	      </div>
+      </section>
+	    
     
-    
-    </div>
-    
-    </div>
-    </div>
-    </section>
-    <!-- .section -->
-    
-    <section class="site-section bg-light" id="section-contact">
-    <div class="container">
-    <div class="row">
-    <div class="col-md-12 mb-5">
-    <div class="section-heading text-center">
-    <h2>Contact -<strong> me !</strong></h2>
-    </div>
-    </div>
-    
-    <div class="col-md-8">
-    <div class="col-lg-13 pr-lg-9 mb-2 mb-lg-5">
-    <img src="images/email.png" class="img-fluid">
-    </div>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-3">
-    <h3 class="mb-5">Informations</h3>
-    <ul class="site-contact-details">
-    <li>
-    <span class="text-uppercase">Email</span>
-    walidchekir98@gmail.com
-    </li>
-    <li>
-    <span class="text-uppercase">TELEPHONE</span>
-    <a href="tel://+21654410699"> +216 55 454 882 </a>
-    </li>
-    
-    <li>
-    <span class="text-uppercase">Address</span>
-    Megrine, Tunis.<br>
-    </li>
-    </ul>
-    </div>
-    </div>
-    </div>
-    </section>
-    
-    <footer class="site-footer">
-    <div class="container">
-    <div class="row mb-3">
-    <div class="col-md-12 text-center">
-    <p>
-    <a style="color:rgb(40, 147, 247)" href="https://www.linkedin.com/in/walid-chekir-3b947a177/" target="_blank" class="social-item"><span class="icon-linkedin2"></span></a>
-    <a style="color:rgb(34, 50, 65)" href="https://github.com/walid009" class="social-item" target="_blank"><span class="icon-github"></span></a>
-    </p>
-    </div>
-    </div>
-    <div class="row">
-    <p class="col-12 text-center">
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    Copyright ©
-    <script>
-    document.write(new Date().getFullYear());
-    </script>2021
-    All rights reserved | This template is made by 
-    <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    </p>
-    </div>
-    </div>
-    </footer>
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/vendor/popper.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    
-    <script src="js/vendor/jquery.easing.1.3.js"></script>
-    <script src="js/vendor/jquery.stellar.min.js"></script>
-    <script src="js/vendor/jquery.waypoints.min.js"></script>
-    
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-    <script src="js/custom.js"></script>
-    
-    
-    
-    </body>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+		
+		
+		<div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="http://www.oaca.nat.tn/" target="_blank"><img alt="OACA logo" src="images/avatar.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="http://www.oaca.nat.tn/" target="_blank" class="teal-text hoverline">OACA</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">End of Studies Project</div>
+              <p><em class="grey-text">
+                Development of a web application for the Office of civil aviation and airports for carrying out online reservations for parking spaces and flight consultation.
+              </em></p>
+              
+              <ul>
+		  
+		<li><b>Technologies :</b> Nuxt.js, Laravel, JSON, XML, UML, Design Pattern.</li>     
+                <li><b>Tools :</b> Visual Studio Code, Postman.</li>
+		<li><b>Methodology :</b> SCRUM.</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>FEBRUARY to MAY 2020</span></div>
+      </div>
 
+      <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2"><a href="https://www.sonede.com.tn/" target="_blank"><img alt="SONED logo" src="images/logo.png" class="responsive-img center-block"></a></div>
+              <div class="col s12 m10">
+                <p><span class="card-title"><a href="https://www.sonede.com.tn/" target="_blank" class="teal-text hoverline">SONED</a></span></p>
+              </div>
+            </div>
+            <div class="role brown-text">Summer internship</div>
+            <p><em class="grey-text">Development of a Chat application</em></p>
+            <ul>
+              <li><b>Technologies :</b> Flutter, Firebase, UML.</li>     
+              <li><b>Tools :</b> Android Studio.</li>
+            </ul>
+           
+          </div>
+          <div class="card-action"><span>July 2021</span></div>
+    </div>
+		 
+        </div>
+      </section>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+		  
+		  <!-- electionlive-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="sumo traffic " src="images/oaca.png" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">End of Studies Project<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Website application for the Office of civil aviation and airports</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Technologies<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Laravel</strong> Backend</li>
+                    <li> <strong>Nuxt.js</strong>  frontend</li>					
+                  </ul>
+                  <div class="card-action">
+                    <a aria-label="Visit the link" href="https://www.youtube.com/watch?v=e3zgU1jKkDY&ab_channel=walidchekir" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-youtube-play"></i></a></div>
+                </div>
+              </div>
+            </div>
+		  
+		  <!-- Sumo-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="sumo traffic " src="images/yoga.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Wellness and meditation application.<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>This app is cross-platform</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Technologies<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong> JAVAFX</strong></li>
+                    <li> <strong>Symfony </strong></li>
+					          <li><strong>Codenameone </strong></li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit the link" href="https://github.com/walid009/Mobile_CodeName_One" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+		  
+		  
+            <!-- HumanBody-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of HumanBody app" src="images/spaceshotter.png" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Space Shooter game<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Each enemy killed increases your score by 10 points. You can collect 1. Speed, 2. TripleShoot, 3. Shield booster.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Technologies<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Unity</strong></li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit the link" href="https://walid009.github.io/" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-globe"></i></a></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- DoctorFinder-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="doctorfinder interface" src="images/1 - Copy.png"  class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Summer internship<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Chat application</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Technologies<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Flutter</strong> </li>
+					          <li><strong>Firebase</strong></li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit the link" href="https://www.youtube.com/watch?v=e3zgU1jKkDY&ab_channel=walidchekir" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-youtube-play"></i></a></div>
+                </div>
+              </div>
+            </div>
+
+    
+        </div>
+      </section>
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+
+          <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Technologies</h4>
+                <div class="row text-center">
+                  
+                  <!--<div class="col s4 m2"><img alt="" src="portfolio/static/img/react.png" class="responsive-img"></br>React</div>-->
+                  <div class="col s4 m2"><img alt="" src="images/Firebase_Logo.png" class="responsive-img"></br>Firebase</div>
+                           <div class="col s4 m2"><img alt="" src="portfolio/static/img/Laravel.png" class="responsive-img"></br>Laravel</div>
+                           <div class="col s4 m2"><img alt="" src="images/symfony.png" class="responsive-img"></br>Symfony</div>
+                           <div class="col s4 m2"><img alt="" src="images/spring.png" class="responsive-img"></br>Spring</div>
+                           <div class="col s4 m2"><img alt="" src="images/netCore.jpg" class="responsive-img"></br>.Net Core</div>
+                          <div class="col s4 m2"><img alt="" src="portfolio/static/img/html5.png" class="responsive-img"></br>HTML5</div>
+                          <div class="col s4 m2"><img alt="" src="images/css.png" class="responsive-img"></br>CSS</div>
+                          <div class="col s4 m2"><img alt="" src="portfolio/static/img/bootstrap.png" class="responsive-img">Bootstrap</div>
+                          <div class="col s4 m2"><img alt="" src="images/Google-flutter-logo.png" class="responsive-img"></br>Flutter</div>
+                          <div class="col s4 m2"><img alt="" src="images/xcode.png" class="responsive-img"></br>Xcode</div>
+                          <div class="col s4 m2"><img alt="" src="images/android.png" class="responsive-img"></br>Android</div>
+                          <div class="col s4 m2"><img alt="" src="portfolio/static/img/mysql.png" class="responsive-img"></br>Mysql</div>
+                          <div class="col s4 m2"><img alt="" src="portfolio/static/img/sqlite.png" class="responsive-img"></br>SQLite</div>
+                          <div class="col s4 m2"><img alt="" src="portfolio/static/img/linux.png" class="responsive-img"></br>Linux</div>
+                </div>
+              </div>
+          </div>
+
+          <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Programming language</h4>
+                <div class="row text-center">
+                  <div class="col s4 m2"><img alt="" src="portfolio/static/img/java.png" class="responsive-img"></br>JAVA</div>
+                  <div class="col s4 m3"><img alt="" src="images/swift.jpg" class="responsive-img"></br>Swift</div>
+                  <div class="col s4 m2"><img alt="" src="portfolio/static/img/python.png" class="responsive-img"></br>Python</div>
+                  <div class="col s4 m2"><img alt="" src="portfolio/static/img/c.png" class="responsive-img"></br>C</div>
+                  <div class="col s4 m2"><img alt="" src="images/csharp.png" class="responsive-img"></br>c#</div>        
+                </div>
+              </div>
+          </div>
+     
+		  
+          <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light">Autres</h4>
+                <div class="row text-center">
+				  <div class="col s4 m2"><img alt="" src="portfolio/static/img/github.png" class="responsive-img"></br>Git</div>
+                </div>
+              </div>
+          </div>
+
+
+      </div>
+	
+      </section>
+	  
+	  
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="#" class="teal-text hoverline">High school of Taha Hussein</a></span></p>
+                  <p class="brown-text">Tunis | 2016 - 2017</p>
+                  <ul>
+                    <li>High-School Diploma Experimental Sciences</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://www.isetsl.rnu.tn/"  target="_blank" class="teal-text hoverline">High School of Economics and Business Tunis (ESSECT)</a></span></p>
+                  <p class="brown-text">Tunis | 2017 - 2020</p>
+                  <ul>
+                    <li>Bachelor in IT management</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+			
+			 <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://www.isa2m.rnu.tn/" target="_blank" class="teal-text hoverline">Private Higher School of Engineering and Technology (ESPRIT)</a></span></p>
+                  <p class="brown-text">Tunis | 2020 - 2023</p>
+                  <ul>
+                    <li>diploma in software engineering</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+			
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p><a aria-label="Email Chekir Walid" href="mailto:walidchekir98@gmail.com" data-position="top" data-tooltip="Email Chekir Walid" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-envelope"></i><a alt="" href="mailto:walidchekir98@gmail.com" class="hoverline">walidchekir98@gmail.com</a></a></p>
+          <p><a aria-label="View Chekir Walid on LinkedIn" href="https://www.linkedin.com/in/walid-chekir-3b947a177/" target="_blank" data-position="top" data-tooltip="View Chekir Walid on LinkedIn" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i><a alt="" target="_blank" href="https://www.linkedin.com/in/walid-chekir-3b947a177/" class="hoverline">https://www.linkedin.com/in/walid-chekir-3b947a177/</a></a></p>
+        </div>
+      </section>
+    </main>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+            menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+      });
+    </script>
+  </body>
 </html>
